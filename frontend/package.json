@@ -1,0 +1,29 @@
+{
+  "name": "odda-frontend",
+  "version": "0.0.0",
+  "description": "Object Detection Desktop Application Frontend",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "author": "",
+  "dependencies": {
+    "@mdi/font": "^7.0.96",
+    "bootstrap": "^5.2.2",
+    "vue": "^3.2.41",
+    "vue-anka-cropper": "^1.1.0",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "vite": "^3.1.8"
+  }
+}
